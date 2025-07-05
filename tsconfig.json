@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "strict": false,
+    "module": "esnext",
+    "target": "ES2015",
+    "lib": ["ES2019", "DOM", "dom.iterable"],
+    "noEmit": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": false
+  },
+  "exclude": ["node_modules/**/*", "dist/**/*"]
+}
